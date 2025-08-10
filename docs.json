@@ -1,69 +1,47 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "EasyMinecraftHosting",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
-    "dark": "#15803D"
+    "dark": "#123123"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Inicio",
         "groups": [
           {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "group": "Resumen",
+            "pages": ["inicio/que-es-easy-minecraft-hosting"]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
+            "group": "Precios",
+            "pages": ["precios/precios-hosting-minecraft"]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Panel Apollo",
         "groups": [
           {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "group": "Funciones del Panel",
+            "pages": ["panel-apollo/guia-panel-apollo"]
+          }
+        ]
+      },
+      {
+        "tab": "Soporte y Base de Conocimiento",
+        "groups": [
+          {
+            "group": "General",
+            "pages": ["minecraft-servidors/actualizar-servidor-minecraft"]
           },
           {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "Servidores Bedrock",
+            "pages": ["minecraft-servidors/bedrock/como-subir-mundo-bedrock"]
           }
         ]
       }
@@ -71,57 +49,52 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Comenzar",
+          "href": "https://easyminecrafthosting.com/es/empezar",
+          "icon": "rocket"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Ver Planes",
+          "href": "https://easyminecrafthosting.com/es/precios",
+          "icon": "tag"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Soporte",
+          "href": "https://easyminecrafthosting.com/es",
+          "icon": "life-ring"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/logo_text.webp",
+    "dark": "/logo/logo_text.webp"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Chat en Vivo",
+        "href": "https://easyminecrafthosting.com/es",
+        "icon": "comments"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/urEMHdiscord",
+        "icon": "discord"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Comenzar",
+      "href": "https://easyminecrafthosting.com/es"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://easyminecrafthosting.com/es",
+      "discord": "https://discord.gg/urEMHdiscord",
+      "instagram": "https://instagram.com/easyminecrafthosting",
+      "youtube": "https://youtube.com/@easyminecrafthosting"
     }
   }
 }
